@@ -29,14 +29,14 @@
 ## [1.0.8] 2022-06-21
 ### Improvements
 
-- UI Update: `Soft UI Dashboard` v1.0.6
+- UI Update: `Bodynetic Dashboard` v1.0.6
 - Enhanced version:
   - `Dark Mode`
 
 ## [1.0.7] 2022-05-25
 ### Improvements
 
-- Built with [Soft UI Dashboard Generator](https://appseed.us/generator/soft-ui-dashboard/)
+- Built with [Bodynetic Dashboard Generator](https://appseed.us/generator/soft-ui-dashboard/)
   - Timestamp: `2022-05-25 10:16`
 - Added CDN/Static Server management
   - `ASSETS_ROOT` env variable
@@ -44,7 +44,7 @@
 ## [1.0.6] 2022-05-24
 ### Improvements 
 
-- UI Update: `Soft UI Dashboard` v1.0.5
+- UI Update: `Bodynetic Dashboard` v1.0.5
   - upgrade Bootstrap version to v5.1.3
   - upgrade ChartJs plugin version to v3.7.1
   - fix running 'npm install' issue
@@ -67,7 +67,7 @@
 ## [1.0.4] 2021-12-09
 ### Improvements
 
-- Bump UI: Soft UI Dashboard **v1.0.3**
+- Bump UI: Bodynetic Dashboard **v1.0.3**
 
 ## [1.0.3] 2021-09-20
 ### Improvements 
@@ -105,5 +105,5 @@
 ### Initial Release
 
 - Codebase: [Django Dashboard](https://github.com/app-generator/boilerplate-code-django-dashboard) v1.0.4
-- UI: [Jinja Soft UI](https://github.com/app-generator/jinja-soft-ui-dashboard) v1.0.0
-- UI Kit: Soft UI Dashboard v1.0.1
+- UI: [Jinja Bodynetic](https://github.com/app-generator/jinja-soft-ui-dashboard) v1.0.0
+- UI Kit: Bodynetic Dashboard v1.0.1
