@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-udof!)wj7-m3h29ucsgv8ndp)27iskd0-nks22)%+w68-3gp_9
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
-
+# AUTH_USER_MODEL = "accounts.User"
 
 # Application definition
 
@@ -137,3 +137,11 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_USE_TLS = True
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'ckabhijeet@gmail.com'
+EMAIL_HOST_PASSWORD = 'hello@citykonnect123'

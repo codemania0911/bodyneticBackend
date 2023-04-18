@@ -8,4 +8,5 @@ urlpatterns = [
     path('profile/<int:pk>', ProfileDetail.as_view()),
     path('userdata/', UserDataList.as_view()),
     path('userdata/<int:pk>', UserDataDetail.as_view()),
+    # path('register/', Register.as_view()),
 ]
